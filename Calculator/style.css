@@ -1,0 +1,78 @@
+body{
+    background-color: antiquewhite;
+}
+table{
+    padding:none;
+    background-color: grey;
+    border:2px;
+    border-style: solid;
+    border-radius: 25px;
+    border-collapse:unset;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:10%;
+    }
+/* tr,td{
+    border:1px;
+    border-style: none;
+    border-collapse:collapse;
+    } */
+#text{
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}   
+#row_5,#_0 button{
+    border-bottom-left-radius: 20px;
+}   
+#row_2, #button_enter,#Enter Button{
+    border-bottom-right-radius: 20px;
+}   
+td button{
+    background-color:white;
+    border: none;
+    font-size: x-large;
+    height:65px;
+    width:100px
+}
+#row_1 button{
+    background-color:gainsboro;
+}
+#Enter button{
+    background-color: tomato;
+    margin-left: auto;
+    margin-right: auto;
+    height: 270px;
+}
+#text{
+    background-color: cadetblue;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    font-size:xx-large;
+    text-align: center;
+    font-weight: bold;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+@font-face{
+    font-family:'Seven Segment';
+    src:url('others\Seven\ Segment.ttf')
+}
+#output{
+    background-color: black;
+    color:rgb(49, 230, 49);
+    border-color: black;
+    font-family:'Seven Segment';
+    font-size: xx-large;
+    padding-right: 10px;
+    text-align: right;
+    height:60px;
+}
+#row_1 button:hover{
+    background-color: darkgray;
+}
+button:hover{
+    cursor: pointer;
+    background-color:darkgrey;
+}
+#Enter button:hover{
+    background-color:orangered;
+}

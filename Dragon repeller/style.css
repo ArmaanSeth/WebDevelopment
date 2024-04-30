@@ -1,0 +1,40 @@
+body {
+    background-color: blueviolet;
+    align-content: center;
+}
+#game{
+    cursor:default;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: cadetblue;
+    width: 34%;
+    margin-left: 33%;
+    border-style:double;
+    border-color: black;
+    border-width: 6px;
+}
+#stats,#controls,#text,#monster_stats{
+    padding: 5px;
+    border:1px solid;
+    border-color: black;
+    border-collapse: collapse;
+}
+#controls,#stats{
+    text-align: center;
+}
+#controls button{
+    cursor: pointer;
+    font-weight:normal;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: darkgray;
+}
+.stat{
+    text-transform:uppercase;
+    font-weight: bold;
+}
+#monster_stats{
+    display: none;
+}
+#text{
+    background-color:darkblue;
+    color: white;
+}
